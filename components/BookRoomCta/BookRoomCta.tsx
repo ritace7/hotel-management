@@ -119,7 +119,7 @@ const BookRoomCta: FC<Props> = ({
 						min={1}
 						max={5}
 						onChange={(e) => setAdults(+e.target.value)}
-						className="w-full border border-gray-300 rounded-lg p-2.5"
+						className="w-full border text-black border-gray-300 rounded-lg p-2.5"
 					/>
 				</div>
 				<div className="w-1/2 pl-2">
@@ -136,7 +136,7 @@ const BookRoomCta: FC<Props> = ({
 						min={0}
 						max={3}
 						onChange={(e) => setNumOfChildren(+e.target.value)}
-						className="w-full border border-gray-300 rounded-lg p-2.5"
+						className="w-full border text-black border-gray-300 rounded-lg p-2.5"
 					/>
 				</div>
 			</div>
