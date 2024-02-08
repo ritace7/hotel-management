@@ -84,8 +84,7 @@ const RoomDetails = (props: { params: { slug: string } }) => {
 				}
 			}
 		} catch (error) {
-			console.log("Error: ", error);
-			toast.error("An error occured");
+			toast.error("Sign in required.");
 		}
 	};
 
