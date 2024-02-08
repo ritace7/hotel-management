@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-styles {
+	@apply border border-gray-300 sm:text-sm text-black rounded-lg block w-full p-2.5 focus:outline-none;
+}
+
+.img {
+	@apply object-cover w-full h-full;
+}
+
+.scale-animation {
+	@apply hover:scale-125 transition-all duration-700;
+}
+
+.footer-page-end {
+	@apply flex justify-end items-center;
+}
+
+.btn-primary {
+	@apply px-6 md:px-[50px] lg:px-[72px] py-2 md:py-5 bg-primary rounded-lg md:rounded-2xl shadow-sm shadow-primary text-white font-bold text-base md:text-xl hover:scale-110 duration-300 transition-all;
+}
+
+.btn-tertiary {
+	@apply px-6 md:px-[50px] lg:px-[72px] py-2 md:py-5 bg-tertiary-light rounded-lg md:rounded-2xl shadow-sm shadow-tertiary-light text-white font-bold text-base md:text-xl hover:scale-110 duration-300 transition-all;
+}
+
+.font-heading {
+	@apply font-medium md:font-semibold md:text-6xl text-3xl;
+}
+
+.font-normal {
+	@apply text-sm md:text-base;
+}
